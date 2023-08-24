@@ -1,0 +1,26 @@
+姓名:姓名:Android CI
+
+在……之上:
+推:
+分支机构:[分支机构：["主要"]"主要" ]
+pull_request:
+分支机构:[分支机构：["主要"]"主要" ]
+
+工作:
+建立:
+
+run-on:连续的:ubuntu-最新
+
+步骤:
+-uses:-使用：操作/结帐@v3
+-姓名:-名称：设置JDK11
+uses:用法：操作/setup-java@v3
+和……一起:
+java版:'11'
+分布:'temurin'
+缓存:缓存：渐变
+
+-姓名:-名称：授予gradlew执行权限
+跑:运行：chmod+x gradlew
+-姓名:-名称：使用Gradle生成
+跑:运行：./gradlew生成
